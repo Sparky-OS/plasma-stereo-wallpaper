@@ -1,0 +1,62 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "Capitain_Jack@yahoo.com",
+                "Name": "Daniel Ramos"
+            }
+        ],
+        "Category": "",
+        "Description": "Stereo pictures as the wallpaper: both views in 3D on a 3D screen, the left view on a 2D screen",
+        "Description[fr]": "Des images stéréo en fond d'écran : les deux vues en 3D sur un écran 3D, la vue gauche sur un écran 2D",
+        "Description[ja]": "ステレオ写真を壁紙に。3D 画面では両眼の視点を立体で、2D 画面では左目の視点を表示します",
+        "Description[ko]": "스테레오 사진을 배경으로: 3D 화면에서는 두 시점을 입체로, 2D 화면에서는 왼쪽 눈 시점을 표시합니다",
+        "Description[pl]": "Zdjęcia stereoskopowe jako tapeta: oba widoki w 3D na ekranie 3D, lewy widok na ekranie 2D",
+        "Description[pt_BR]": "Fotos estéreo como papel de parede: as duas vistas em 3D numa tela 3D, a vista esquerda numa tela 2D",
+        "Description[zh_CN]": "将立体照片用作壁纸：在 3D 屏幕上以立体方式显示两个视图，在 2D 屏幕上显示左眼视图",
+        "Description[zh_TW]": "將立體照片用作桌布：在 3D 螢幕上以立體方式顯示兩個視圖，在 2D 螢幕上顯示左眼視圖",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "org.sparky.stereoimage",
+        "License": "GPLv2+",
+        "MimeTypes": [
+            "image/x-mpo",
+            "image/x-jps",
+            "image/x-pns",
+            "image/jpeg",
+            "image/png",
+            "image/svg+xml",
+            "image/svg+xml-compressed",
+            "image/bmp",
+            "image/webp",
+            "image/tiff"
+        ],
+        "Name": "Stereo Image",
+        "Name[fr]": "Image stéréo",
+        "Name[ja]": "ステレオ画像",
+        "Name[ko]": "스테레오 그림",
+        "Name[pl]": "Obraz stereo",
+        "Name[pt_BR]": "Imagem estéreo",
+        "Name[zh_CN]": "立体图像",
+        "Name[zh_TW]": "立體影像",
+        "Website": "https://github.com/Sparky-OS/plasma-stereo-wallpaper"
+    },
+    "Keywords": "stereo,3D,MPO,JPS",
+    "MimeType": "image/x-mpo;image/x-jps;image/x-pns;image/avif;image/gif;image/heif;image/jpeg;image/png;image/svg+xml;image/svg+xml-compressed;image/bmp;image/webp;image/tiff;",
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-DropMimeTypes": [
+        "image/x-mpo",
+        "image/x-jps",
+        "image/x-pns",
+        "image/avif",
+        "image/gif",
+        "image/heif",
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/svg+xml-compressed",
+        "image/bmp",
+        "image/webp",
+        "image/tiff"
+    ]
+}

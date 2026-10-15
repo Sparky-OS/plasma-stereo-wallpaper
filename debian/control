@@ -1,0 +1,22 @@
+Source: plasma-stereo-wallpaper
+Section: kde
+Priority: optional
+Maintainer: Daniel Ramos (Capitain Jack) <Capitain_Jack@yahoo.com>
+Build-Depends: debhelper-compat (= 13), cmake, extra-cmake-modules, libplasma-dev
+Standards-Version: 4.7.3
+Rules-Requires-Root: no
+Homepage: https://sparkylinux.org
+
+Package: plasma-wallpaper-stereo-image
+Architecture: all
+Depends: ${misc:Depends}, libstereo-layer1 (>= 1.4.2~), plasma-workspace (>= 4:6.7.4), kimageformat6-plugins (>= 6.30.0-1+stereo3d2)
+Description: Stereo picture wallpaper for Plasma
+ The Stereo Image wallpaper shows a stereo picture (MPO, JPS, PNG with the
+ sTER chunk, a marked or content-tested side-by-side pair) as the desktop's
+ background: both views in 3D on a screen in a 3D mode, the left view on a
+ 2D screen. The picture gets its own declared surface below the desktop, so
+ icons and widgets stay flat. It is the Image wallpaper with the shared
+ stereo policy of libstereo-layer, and takes its pictures and settings.
+ .
+ Sparky Stereo OS, Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo"
+ Pijanowski).
